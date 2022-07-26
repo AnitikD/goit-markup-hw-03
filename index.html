@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Студия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="head-nav">
+      <nav class="site-nav">
+        <a lang="en" href="" class="logo">Web<span class="logo-head-color">Studio</span></a>
+        <ul class="main-nav list">
+          <li><a href="./index.html" class="main-nav-link link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="main-nav-link link">Портфолио</a></li>
+          <li><a href="" class="main-nav-link link">Контакты</a></li>
+        </ul>
+      </nav>
+      <ul class="contacts-nav list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contacts-nav-list link">info@devstudio.com</a>
+        </li>
+        <li><a href="tel:+380961111111" class="contacts-nav-list link">+38 096 111 11 11</a></li>
+      </ul>
+    </header>
+    <main>
+      <!----------- hero ----------->
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="hero-btn">Заказать услугу</button>
+      </section>
+
+      <!-- our advantages -->
+      <section class="advantages">
+        <h2 hidden>Наши преимущества</h2>
+        <ul class="advantages-list list">
+          <li>
+            <h3 class="advantages-title">Внимание к деталям</h3>
+            <p class="advantages-text">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
+          </li>
+          <li>
+            <h3 class="advantages-title">Пунктуальность</h3>
+            <p class="advantages-text">
+              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+            </p>
+          </li>
+          <li>
+            <h3 class="advantages-title">Планирование</h3>
+            <p class="advantages-text">
+              Равным образом консультация с широким активом в значительной степени обуславливает.
+            </p>
+          </li>
+          <li>
+            <h3 class="advantages-title">Современные технологии</h3>
+            <p class="advantages-text">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- about us -->
+      <section class="about">
+        <h2 class="about-title">Чем мы занимаемся</h2>
+        <ul class="about-list list">
+          <li>
+            <img
+              src="./images/about/img-about-1.jpg"
+              alt="Верстка макета"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/about/img-about-2.jpg"
+              alt="Дизайн макета"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/about/img-about-3.jpg"
+              alt="Цветовое оформление макета"
+              width="370"
+              height="294"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <!-- our team -->
+      <section class="section-team">
+        <h2 class="team-title">Наша команда</h2>
+        <ul class="team-list list">
+          <li class="team-card">
+            <img
+              src="./images/team/team-card-igor.jpg"
+              alt="фото Игорь Демьяненко"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-employee">Игорь Демьяненко</h3>
+            <p lang="en" class="function-team">Product Designer</p>
+          </li>
+          <li class="team-card">
+            <img
+              src="./images/team/team-card-olga.jpg"
+              alt="фото Ольга Репина"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-employee">Ольга Репина</h3>
+            <p lang="en" class="function-team">Frontend Developer</p>
+          </li>
+          <li class="team-card">
+            <img
+              src="./images/team/team-card-nikolay.jpg"
+              alt="фото Николай Тарасов"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-employee">Николай Тарасов</h3>
+            <p lang="en" class="function-team">Marketing</p>
+          </li>
+          <li class="team-card">
+            <img
+              src="./images/team/team-card-mikhail.jpg"
+              alt="фото Михаил Ермаков"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-employee">Михаил Ермаков</h3>
+            <p lang="en" class="function-team">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer-nav">
+      <a lang="en" href="" class="logo">Web<span class="logo-ftr-color">Studio</span></a>
+      <address class="address">
+        <ul class="list">
+          <li>
+            <a
+              href="https://goo.gl/maps/zRHJoUfgEX58yUW17"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="address-list link"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+          <li><a href="mailto:info@example.com" class="contacts-list link">info@example.com</a></li>
+          <li><a href="tel:+380991111111" class="contacts-list link">+38 099 111 11 11</a></li>
+        </ul>
+      </address>
+    </footer>
+  </body>
+</html>
