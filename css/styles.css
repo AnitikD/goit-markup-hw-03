@@ -10,10 +10,25 @@
   --logo-head-txt-color: #000000;
   --main-font-family: 'Roboto', sans-serif;
 }
-body {
-  background-color: var(--primery-bg-color);
-  color: var(--primery-txt-color);
-  font-family: var(--main-font-family);
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
 }
 
 .list {
@@ -22,6 +37,23 @@ body {
 .link,
 .logo {
   text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: var(--primery-bg-color);
+  color: var(--primery-txt-color);
+  font-family: var(--main-font-family);
+}
+
+.conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* ----------- LOGO ---------- */
@@ -32,6 +64,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
 
 .logo-head-color {
@@ -41,6 +74,27 @@ body {
   color: var(--light-txt-color);
 }
 /* ------------ HEADER ------------ */
+.head-nav {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.head-nav-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+.main-nav,
+.contacts-nav {
+  display: flex;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
 
 .main-nav-link {
   color: inherit;
@@ -80,6 +134,14 @@ body {
   text-transform: uppercase;
 }
 .hero-btn {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  min-width: 216px;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+
   color: var(--light-txt-color);
   background-color: var(--active-txt-color);
   font-weight: 700;
@@ -144,7 +206,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus,
