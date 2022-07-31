@@ -66,6 +66,9 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.header-logo {
   margin-right: 93px;
 }
 
@@ -128,8 +131,7 @@ body {
 .hero {
   color: var(--light-txt-color);
   background-color: var(--dark-bg-color);
-}
-.hero-conteiner {
+
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -172,7 +174,7 @@ body {
 
 /* --------------- HERO ----------------- */
 /* -------------- OUR ADVANTAGES ---------------- */
-.advantages-conteiner {
+.advantages {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -199,10 +201,24 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* -------------- OUR ADVANTAGES ---------------- */
 /* -------------- ABOUT US ---------------- */
 
-.about-conteiner {
+.about {
   padding-bottom: 94px;
 }
 .about-title,
@@ -229,9 +245,7 @@ body {
 
 .section-team {
   background-color: var(--secondary-bg-color);
-}
 
-.team-conteiner {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -249,9 +263,7 @@ body {
   background-color: var(--primery-bg-color);
   flex-basis: calc((100% - 90px) / 4);
 }
-.team-card-img {
-  margin-bottom: 30px;
-}
+
 .team-employee {
   font-weight: 500;
   font-size: 16px;
@@ -268,13 +280,16 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
 
-  margin-bottom: 30px;
+.team-employee-function {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* -------------- OUR TEAM ---------------- */
 
 /* -------------- PORTFOLIO PAGE ---------------- */
-.portfolio-conteiner {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -310,7 +325,7 @@ body {
 .portfolio-filter {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .portfolio-filter-item:not(:last-child) {
   margin-right: 8px;
@@ -328,7 +343,7 @@ body {
 
 .portfolio-list-item {
   min-width: 370px;
-  flex-basis: calc((100% - 90px) / 4);
+  flex-basis: calc((100% - 60px) / 6);
 }
 
 .portfolio-title-text {
@@ -361,6 +376,9 @@ body {
 /* -------------- FOOTER ---------------- */
 .footer-nav {
   background-color: var(--dark-bg-color);
+
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .address-list {
   color: var(--light-txt-color);
@@ -378,4 +396,14 @@ body {
 .contacts-list:hover,
 .contacts-list:focus {
   color: var(--active-txt-color);
+}
+
+.logo-ftr {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.logo-frt-list {
+  display: block;
+  margin-bottom: 9px;
 }
