@@ -403,7 +403,6 @@ body {
   margin-bottom: 20px;
 }
 
-.logo-frt-list {
-  display: block;
+.logo-ftr-list:not(:last-child) {
   margin-bottom: 9px;
 }
